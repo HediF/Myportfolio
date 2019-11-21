@@ -1,0 +1,115 @@
+.header-color {
+  background: #1e130c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+  .landing-grid {
+    background: #1e130c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    }
+
+  .avatar-img {
+    height: 130px;
+    border-radius: 50%;
+    right: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner-text {
+    background-color: header-color;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .banner-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+
+  }
+
+  .social-links i {
+    color: white;
+    font-size: 2em;
+    padding: 8px;
+  }
+  
+  .contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    
+  }
+  
+  .contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+  }
+ 
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+  
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+  }
+  
+
+  .avatContact{
+    height: 130px;
+    border-radius: 50%;
+    right: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+ .text-display{
+  color:white;
+  margin-top: 2em;
+  text-align: center;
+
+}
+
+.oups{
+  background: black;  
+}
+
